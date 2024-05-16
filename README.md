@@ -7,32 +7,32 @@ It must be noted that a polar coordinates is used to approach this problem, as i
 
 # Equation of Motion for a Real Pendulum Using Polar Coordinates
 
-To describe the motion of a real pendulum using polar coordinates, we consider a simple pendulum consisting of a mass $ m $ attached to a string of length $ l $ that swings under the influence of gravity. The equation is derived in terms of the angular displacement $\theta$.
+To describe the motion of a real pendulum using polar coordinates, we consider a simple pendulum consisting of a mass $m$ attached to a string of length $l$ that swings under the influence of gravity. The equation is derived in terms of the angular displacement $\theta$.
 
 ## Assumptions and Setup
 
-- **Pendulum Length** ($l$): The length of the string is constant.
-- **Mass** ($m$): The mass at the end of the string.
-- **Gravity** ($g$): The acceleration due to gravity.
-- **Angular Displacement** (\(\theta\)): The angle the pendulum makes with the vertical.
+- **Pendulum Length** $l$: The length of the string is constant.
+- **Mass** $m$: The mass at the end of the string.
+- **Gravity** $g$: The acceleration due to gravity.
+- **Angular Displacement** $\theta$: The angle the pendulum makes with the vertical.
 
 ## Coordinate System
 
 In polar coordinates, the position of the mass can be described by:
-- Radial distance \( r = l \) (constant).
-- Angular position \( \theta \).
+- Radial distance $r = l$ (constant).
+- Angular position $\theta$.
 
 ## Forces on the Pendulum
 
-- **Tension** (\(T\)) in the string, acting along the length of the string (radial direction).
-- **Gravitational Force** (\(mg\)), acting vertically downward.
+- **Tension** $T$ in the string, acting along the length of the string (radial direction).
+- **Gravitational Force** $mg$, acting vertically downward.
 
 ## Components of Forces
 
 To find the forces in polar coordinates, we resolve the gravitational force into radial and tangential components relative to the pendulum’s motion.
 
-- **Radial Component**: \( -mg \cos\theta \)
-- **Tangential Component**: \( -mg \sin\theta \)
+- **Radial Component**: $-mg \cos\theta$
+- **Tangential Component**: $-mg \sin\theta$
 
 ## Equations of Motion
 
@@ -40,12 +40,12 @@ Using Newton's second law in polar coordinates:
 
 ### Radial Direction
 
-In the radial direction, the centripetal force required for circular motion is provided by the tension \( T \) and the radial component of gravity:
+In the radial direction, the centripetal force required for circular motion is provided by the tension $T$ and the radial component of gravity:
 $$
 T - mg \cos\theta = m\left( -\frac{d^2r}{dt^2} + r\left(\frac{d\theta}{dt}\right)^2 \right)
 $$
 
-Since \( r = l \) is constant:
+Since $r = l$ is constant:
 $$
 \frac{d^2r}{dt^2} = 0
 $$
@@ -71,7 +71,7 @@ This is the nonlinear differential equation describing the motion of a simple pe
 
 ## Small Angle Approximation
 
-For small angular displacements (\(\theta \approx 0\)), \(\sin\theta \approx \theta\). The equation simplifies to:
+For small angular displacements $\theta \approx 0$, $\sin\theta \approx \theta$. The equation simplifies to:
 $$
 \frac{d^2\theta}{dt^2} + \frac{g}{l} \theta = 0
 $$
@@ -81,7 +81,7 @@ $$
 \theta(t) = \theta_0 \cos\left( \sqrt{\frac{g}{l}} t + \phi \right)
 $$
 
-where \( \theta_0 \) is the maximum angular displacement and \( \phi \) is the phase constant determined by initial conditions.
+where $\theta_0$ is the maximum angular displacement and $\phi$ is the phase constant determined by initial conditions.
 
 ## Full Nonlinear Equation
 
