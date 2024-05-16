@@ -81,3 +81,7 @@ The motion of a real pendulum using polar coordinates is governed by:
 $$\frac{d^2\theta}{dt^2} + \frac{g}{l} \sin\theta = 0$$
 
 This second-order nonlinear differential equation describes the angular motion of the pendulum and is foundational in understanding the dynamics of pendular systems in both simple and complex contexts.
+
+And at the end we show the graphics, which show the difference between the real pendulum and simple pendulum, 
+
+
