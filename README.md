@@ -41,61 +41,43 @@ Using Newton's second law in polar coordinates:
 ### Radial Direction
 
 In the radial direction, the centripetal force required for circular motion is provided by the tension $T$ and the radial component of gravity:
-$$
-T - mg \cos\theta = m\left( -\frac{d^2r}{dt^2} + r\left(\frac{d\theta}{dt}\right)^2 \right)
-$$
+$$T - mg \cos\theta = m\left( -\frac{d^2r}{dt^2} + r\left(\frac{d\theta}{dt}\right)^2 \right)$$
 
 Since $r = l$ is constant:
-$$
-\frac{d^2r}{dt^2} = 0
-$$
-$$
-T = mg \cos\theta + ml \left( \frac{d\theta}{dt} \right)^2
-$$
+$$\frac{d^2r}{dt^2} = 0$$
+$$T = mg \cos\theta + ml \left( \frac{d\theta}{dt} \right)^2$$
 
 ### Tangential Direction
 
 In the tangential direction, the tangential component of gravity causes angular acceleration:
-$$
--mg \sin\theta = m l \frac{d^2\theta}{dt^2}
-$$
+$$-mg \sin\theta = m l \frac{d^2\theta}{dt^2}$$
 
 ## Simplifying the Tangential Equation
 
 Rearrange to solve for the angular acceleration:
-$$
-\frac{d^2\theta}{dt^2} + \frac{g}{l} \sin\theta = 0
-$$
+$$\frac{d^2\theta}{dt^2} + \frac{g}{l} \sin\theta = 0$$
 
 This is the nonlinear differential equation describing the motion of a simple pendulum.
 
 ## Small Angle Approximation
 
 For small angular displacements $\theta \approx 0$, $\sin\theta \approx \theta$. The equation simplifies to:
-$$
-\frac{d^2\theta}{dt^2} + \frac{g}{l} \theta = 0
-$$
+$$\frac{d^2\theta}{dt^2} + \frac{g}{l} \theta = 0$$
 
 This is the equation of a simple harmonic oscillator with the general solution:
-$$
-\theta(t) = \theta_0 \cos\left( \sqrt{\frac{g}{l}} t + \phi \right)
-$$
+$$\theta(t) = \theta_0 \cos\left( \sqrt{\frac{g}{l}} t + \phi \right)$$
 
 where $\theta_0$ is the maximum angular displacement and $\phi$ is the phase constant determined by initial conditions.
 
 ## Full Nonlinear Equation
 
 For larger angles where the small angle approximation does not hold, the equation:
-$$
-\frac{d^2\theta}{dt^2} + \frac{g}{l} \sin\theta = 0
-$$
+$$\frac{d^2\theta}{dt^2} + \frac{g}{l} \sin\theta = 0$$
 must be solved, which typically requires numerical methods or more advanced analytical techniques such as elliptic integrals.
 
 ## Conclusion
 
 The motion of a real pendulum using polar coordinates is governed by:
-$$
-\frac{d^2\theta}{dt^2} + \frac{g}{l} \sin\theta = 0
-$$
+$$\frac{d^2\theta}{dt^2} + \frac{g}{l} \sin\theta = 0$$
 
 This second-order nonlinear differential equation describes the angular motion of the pendulum and is foundational in understanding the dynamics of pendular systems in both simple and complex contexts.
