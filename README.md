@@ -5,15 +5,15 @@ First we proceed by stating the force acting on the pendulum strings, and the di
 
 It must be noted that a polar coordinates is used to approach this problem, as it makes it much easier to focus on a single parameter $\theta$, rather than the $x$ and $y$ coordinates.
 
-**# Equation of Motion for a Real Pendulum Using Polar Coordinates
+****# Equation of Motion for a Real Pendulum Using Polar Coordinates
 
-To describe the motion of a real pendulum using polar coordinates, we consider a simple pendulum consisting of a mass $ m $ attached to a string of length $ l $ that swings under the influence of gravity. The equation is derived in terms of the angular displacement $ \theta $.
+To describe the motion of a real pendulum using polar coordinates, we consider a simple pendulum consisting of a mass $ m $ attached to a string of length $ l $ that swings under the influence of gravity. The equation is derived in terms of the angular displacement $\theta$.
 
 ## Assumptions and Setup
 
-- **Pendulum Length** (\(l\)): The length of the string is constant.
-- **Mass** (\(m\)): The mass at the end of the string.
-- **Gravity** (\(g\)): The acceleration due to gravity.
+- **Pendulum Length** ($l$): The length of the string is constant.
+- **Mass** ($m$): The mass at the end of the string.
+- **Gravity** ($g$): The acceleration due to gravity.
 - **Angular Displacement** (\(\theta\)): The angle the pendulum makes with the vertical.
 
 ## Coordinate System
@@ -99,4 +99,3 @@ $$
 $$
 
 This second-order nonlinear differential equation describes the angular motion of the pendulum and is foundational in understanding the dynamics of pendular systems in both simple and complex contexts.
-**
