@@ -84,4 +84,4 @@ This second-order nonlinear differential equation describes the angular motion o
 
 And at the end we show the graphics, which show the difference between the real pendulum and simple pendulum, 
 
-
+![Double Pendulum Animation](https://github.com/aonsi55/RealPendulumDeviation-Python/blob/main/double_pendulum.gif)
