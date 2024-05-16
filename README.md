@@ -5,7 +5,7 @@ First we proceed by stating the force acting on the pendulum strings, and the di
 
 It must be noted that a polar coordinates is used to approach this problem, as it makes it much easier to focus on a single parameter $\theta$, rather than the $x$ and $y$ coordinates.
 
-****# Equation of Motion for a Real Pendulum Using Polar Coordinates
+# Equation of Motion for a Real Pendulum Using Polar Coordinates
 
 To describe the motion of a real pendulum using polar coordinates, we consider a simple pendulum consisting of a mass $ m $ attached to a string of length $ l $ that swings under the influence of gravity. The equation is derived in terms of the angular displacement $\theta$.
 
